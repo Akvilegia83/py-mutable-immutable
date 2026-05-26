@@ -1,19 +1,36 @@
-lucky_number = 777
-pi = 3.14
-one_is_a_prime_number = False
-name = "Richard"
-my_favourite_films = [
-    "The Shawshank Redemption",
-    "The Lord of the Rings: The Return of the King",
-    "Pulp Fiction",
-    "The Good, the Bad and the Ugly",
-    "The Matrix",
-]
-profile_info = ("michel", "michel@gmail.com", "12345678")
-marks = {
-    "John": 4,
-    "Sergio": 3,
-}
-collection_of_coins = {1, 2, 25}
+#%%
+count_people = 5 # int
+price = 13.25 # float
+is_empty = True # bool
+message = "Hello, world!" # str
 
-# write your code here
+
+
+
+#%%
+#colections
+marks = (2, 3, 4, 5) # tuple
+
+# mutable
+students = ["John", "Bob", "Alice", "Anna"] # list
+fruits = {"apple", "banana", "grape"} # set
+user = {"name": "John", "age": 25} # dict
+#%%
+students[0] = "Ivan"
+#%%
+#marks[0] = 1
+#%%
+students.append("Katrin")
+#%%
+fruits.add("orange")
+#%%
+students += ["Jacob"]
+#%%
+message += " How are you?"
+#%%
+message = "Hello, world!"
+students = ["Anna", "John"]
+
+message2 = message + " How are you?"
+students.extend(["Jacob"])
+
