@@ -34,3 +34,5 @@ students = ["Anna", "John"]
 message2 = message + " How are you?"
 students.extend(["Jacob"])
 
+sorted_variables = {"mutable": [students, fruits, user], 
+"immutable": [count_people, is_empty, marks, message, message2, price]}
