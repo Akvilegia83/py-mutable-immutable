@@ -6,7 +6,7 @@ message = "Hello, world!" # str
 
 #%%
 #colections
-marks = (2, 3, 4, 5) # tuple
+collection_of_marks = (2, 3, 4, 5) # tuple
 
 # mutable
 profile_info = {"name": "Test"}
@@ -17,4 +17,4 @@ user = {"name": "John", "age": 25} # dict
 #%%
 
 sorted_variables = {"mutable": [profile_info, collection_of_coins, students, fruits, user], 
-"immutable": [count_people, is_empty, marks, message, price]}
+"immutable": [count_people, is_empty, collection_of_marks, message, price]}
