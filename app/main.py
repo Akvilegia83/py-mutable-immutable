@@ -16,5 +16,7 @@ fruits = {"apple", "banana", "grape"}  # set
 user = {"name": "John", "age": 25}  # dict
 # %%
 
-sorted_variables = {"mutable": [profile_info, collection_of_coins, students, fruits, user,], "immutable": [count_people, is_empty, marks, message, price,]}
-
+types = {
+    "mutable": [profile_info, collection_of_coins, students, fruits, user],
+    "immutable": [count_people, is_empty, marks, message, price,]
+}
