@@ -21,4 +21,3 @@ sorted_variables = {
     "mutable": [profile_info, collection_of_coins, students, fruits, user],
     "immutable": [count_people, is_empty, marks, message, price,]
 }
-
