@@ -10,8 +10,6 @@ marks = (2, 3, 4, 5)  # tuple
 
 # %%
 # mutable
-profile_info = {"name": "Test"}
-collection_of_coins = [1, 2, 3]
 students = ["John", "Bob", "Alice", "Anna"]  # list
 fruits = {"apple", "banana", "grape"}  # set
 user = {"name": "John", "age": 25}  # dict
