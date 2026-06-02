@@ -2,7 +2,7 @@ lucky_number = 777  # int
 pi = 3.14  # float
 one_is_a_prime_number = False  # bool
 name = "Richard"  # str
-my_favorite_films = [
+my_favourite_films = [
     "The Shawshank Redempion",
     "The Lord of the Rings: The Return of the King",
     "Pulp Fiction",
@@ -16,6 +16,6 @@ marks = {
 }  # dict
 collection_of_coins = {1, 2, 25}  # set
 sorted_variables = {
-    "mutable": [my_favorite_films, marks, collection_of_coins],
+    "mutable": [my_favourite_films, marks, collection_of_coins],
     "immutable": [lucky_number, pi, one_is_a_prime_number, name, profile_info,]
 }
