@@ -3,7 +3,7 @@ pi = 3.14  # float
 one_is_a_prime_number = False  # bool
 name = "Richard"  # str
 my_favourite_films = [
-    "The Shawshank Redempion",
+    "The Shawshank Redemption",
     "The Lord of the Rings: The Return of the King",
     "Pulp Fiction",
     "The Good, the Bad and the Ugly",
